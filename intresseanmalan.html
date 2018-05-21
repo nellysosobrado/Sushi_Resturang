@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+            
+            /* knappar/Navigatiobar */
+            body {margin:0;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+                font-family: Ebrima;
+                
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #6be0d6;
+}
+
+.active {
+    background-color: #bfebf7;
+}
+            
+            
+            /* Bacgrkundsbild */
+            body {
+    background-image: url("http://jllsly.com/wallpapers/white-wallpapers-free-Is-Cool-Wallpapers.jpg");
+}
+         /* Mitten */
+            .class{
+                text-align: center;
+            }
+            
+            /* Text I mitten */
+            .centered {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            /* Rubrik i bilden */
+            .Rubrik{
+             font-family: 'Lucida Handwriting';
+             font-size:36px;
+             
+             color: white;
+            }
+    nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+    
+}
+.myDiv {
+               
+                width: 200px;
+                height: 200px;
+                padding: 10px;
+                background-color: white;
+                opacity: 0.7;
+                
+                border: 2px solid #85a6db;
+               border-radius: 12px ;
+               border: solid 2px #000;
+    
+    
+}
+            .s{
+               text-align: center;
+            }
+            .euw {
+              
+                width: 100%;
+                height: 100px;
+                padding: 10px;
+                background-color: rgba(199, 199, 199, 0.59);
+                opacity: 0.7;
+                text-align: center;
+    
+    
+}
+    
+      .text{
+               
+                font-family: Bookman;
+                font-size: inherit;
+                color: #000;
+ 
+               
+                text-align:center;
+                background-color: #bfebf7;
+               margin-left: 25%;
+               margin-right: 25%;
+               opacity: 0.7;
+ 
+               border: 2px solid #85a6db;
+               border-radius: 12px ;
+               border: solid 2px #000;
+            }
+            .text2 {
+                font-family: Bookman;
+                font-size: inherit;
+                color: #000;
+                text-align: center;
+                background-color: rgba(199, 199, 199, 0.59);
+                margin-left: 25%;
+                margin-right: 25%;
+                opacity: 0.7;
+                
+                
+                    border: 2px solid #85a6db;
+               border-radius: 12px ;
+               border: solid 2px #000;
+            }
+
+              /* Bacgrkundsbild */
+            body {
+    background-image: url("");
+   
+}
+                       .content {
+    max-width: 500px;
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+    
+    
+                    border: 2px solid #85a6db;
+               border-radius: 12px ;
+               border: solid 2px #000;
+}
+                     /* Bacgrkundsbild */
+            body {
+    background-image: url("https://pre00.deviantart.net/d8dc/th/pre/i/2005/277/1/2/sumi_e_bamboo_wallpaper_by_mattski.jpg");
+}
+        </style>
+    </head>
+    <body>
+    
+    <!-- Knappar/Navigation bar-->
+<ul>
+  
+       <li><a href="index.html">Start Sida</a></li>
+     <li><a href="meny.html">Meny</a></li>
+       <li><a href="inloggning.html"> Inloggning</a></li>
+    <li><a class="active"  href="intresseanmalan.html"> Bokning av Bord</a></li>
+ 
+    
+</ul>
+          <!-- Inloggning -->
+         <!--Bild/Header-->
+ <!-- <img src="" alt="Smiley face" height=300px width=500px> -->
+   
+       
+        <article class="content">
+            <br>
+         <h1> Bokning av bord</h1>
+            <p>Bra att tänka på innan du bokar:</p>
+            <p>Det går inte att avboka bordet inom 24 timmar av att ni ska äta här</p>
+            <p>Ange även exakt antal av personer</p>
+            <p>Boknings pris 50kr</p>
+            <p>Bokning telefon numer: 32423443</p>
+
+            <br>
+             <form action="">
+  namn:<br>
+  <input type="text" name="firstname" value=""><br>
+  Telefon-nummer<br>
+       <input type="text" name="firstname" value=""><br>
+  Antal personer<br>
+  <input type="text" name="lastname" value=""><br><br>
+
+                 <button onclick="myFunction()">Boka</button>
+<script>
+function myFunction() {
+    alert("Bokning har skickats!");
+}
+</script>
+  <input type="reset">
+</form>
+        </article>
+
+
+            
+
+    </body>
+</html>

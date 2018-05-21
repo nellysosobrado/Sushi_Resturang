@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+
+<html lang="sv">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="author" content="Nelly Sosobrado">
+       
+        <title>Resturang</title>
+
+
+        <!-- Javascript/TextBox-->
+        <script>
+
+            var year = "2017";
+            var message = "Dagens deal, få en super god dricka för endast för 10 kr. Gäller endast till slutet av";
+            message += year;
+
+        </script>
+     
+        <style>
+            
+            /* knappar/Navigatiobar */
+            body {margin:0;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+                font-family: Ebrima;
+                
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #6be0d6;
+}
+
+.active {
+    background-color: #bfebf7;
+}
+            
+            
+         /* Mitten */
+            .class{
+                text-align: center;
+            }
+            
+            /* Text I mitten */
+            .centered {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            /* Rubrik i bilden */
+            .Rubrik{
+             font-family: 'Lucida Handwriting';
+             font-size:36px;
+             
+             
+             text-shadow: 4px 5px 3px rgba(0,0,0, 0.5);
+font-weight: bold;
+color: #fff;
+
+            }
+    nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+    
+}
+.myDiv {
+               
+                width: 200px;
+                height: 100px;
+                padding: 10px;
+                background-color: white;
+                opacity: 0.7;
+                
+                border: 2px solid #85a6db;
+               border-radius: 12px ;
+               border: solid 2px #000;
+    
+    
+}
+            
+            .euw {
+              
+                width: 100%;
+                height: 100px;
+                padding: 10px;
+                background-color: rgba(199, 199, 199, 0.59);
+                opacity: 0.7;
+                text-align: center;
+    
+    
+}
+    
+      .text{
+               
+                font-family: Bookman;
+                font-size: inherit;
+                color: #000;
+ 
+               
+                text-align:center;
+                background-color: #bfebf7;
+               margin-left: 25%;
+               margin-right: 25%;
+               opacity: 0.7;
+ 
+               border: 2px solid #85a6db;
+               border-radius: 12px ;
+               border: solid 2px #000;
+            }
+            .text2{
+                
+                font-family: Bookman;
+                font-size: inherit;
+                color: #000;
+ 
+               
+                text-align:center;
+               background-color: white;
+               margin-left: 25%;
+               margin-right: 25%;
+              
+             
+               
+               
+               border: 2px solid #85a6db;
+               border-radius: 12px ;
+               border: solid 2px #bfbfbf;
+ 
+               
+             
+            }
+            /*  */
+            table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #fff;
+}
+ table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid  #fff;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+            .rubrik{
+                
+                
+                 font-size:200px;
+             
+             
+text-shadow: 4px 5px 3px rgba(0,0,0, 0.5);
+font-family: Verdana, Geneva, sans-serif;
+font-size: 60px;
+font-weight: bold;
+color: #000;
+
+            }
+
+           
+        </style>
+
+        
+        <script src="script.js"> </script>
+
+    </head>
+    <body>
+         
+        <h1 id="rubrik">   </h1>
+        <script>
+            document.getElementById('rubrik');innerHTML = "Min resturang";
+        </script>
+
+        
+
+        <!-- Knappar/Navigation bar-->
+<ul>
+   <li><a  href="index.html">Start Sida</a></li>
+       <li><a class="active" href="Inloggningstartsida.html">Inloggnings sida</a></li>
+     <li><a href="schema.html">Arbets-Schema</a></li>
+        <li><a href="Personal.html">Personal-Lista</a></li>
+         <li><a href="Sjukanmalan.html">Sjukanmälan</a></li>
+   
+
+    
+    
+    
+  
+</ul>
+        <!-- Javascript/TextBox-->
+        <script> alert(message); </script>
+
+       <!-- Sidans innehålls format --> 
+
+            
+         
+    <!--Bild/Header-->
+    <img src="image/ee.png" alt="Smiley face" height=450px width=100%> 
+ 
+
+    <!--Rubrik/I bild-->
+ 
+  <div class="centered"><h1 class="Rubrik">Inloggnings-sidan</h1>
+
+  </div>
+
+    </body>
+
+</html>
